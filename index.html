@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Versos na Mesa — Livraria, Papelaria e Cafeteria</title>
+  <meta name="description" content="Versos na Mesa: livraria, papelaria e cafeteria no Centro do Rio de Janeiro. Um café, um verso, infinitas histórias.">
+  <meta name="theme-color" content="#3F2619">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-pagina="inicio">
+  <div id="cabecalho"></div>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero papel" aria-labelledby="hero-titulo">
+      <div class="hero__in">
+        <div>
+          <span class="manuscrito entrar">Livraria · Papelaria · Cafeteria</span>
+          <h1 id="hero-titulo" class="entrar">Onde histórias <em>ganham vida</em></h1>
+          <p class="lead entrar">Livros, papelaria e café para inspirar seus melhores momentos.</p>
+          <div class="hero__acoes entrar">
+            <a class="btn btn--cheio" href="livraria.html">Explore nossa livraria <span data-i="seta"></span></a>
+            <a class="btn btn--contorno" href="cardapio.html">Conheça nosso cardápio</a>
+          </div>
+          <div class="hero__selos entrar">
+            <div><span data-i="livros"></span>Livros nacionais<br>e internacionais</div>
+            <div><span data-i="xicara"></span>Cafés especiais e<br>sobremesa da casa</div>
+            <div><span data-i="local"></span>Rua da Quitanda, 86<br>Centro · Rio de Janeiro</div>
+          </div>
+        </div>
+
+        <div class="hero__arte" aria-hidden="true">
+          <span class="hero__ramo" data-ramo=""></span>
+          <div class="hero__arco"><img src="assets/img/3d-cafeteria.webp" alt=""></div>
+          <div class="hero__foto hero__foto--b"><img src="assets/img/marcapagina-marrom-slogan.webp" alt=""></div>
+          <div class="hero__foto hero__foto--a"><img src="assets/img/foto-verso-doce.webp" alt=""></div>
+          <div class="hero__selo"><img src="assets/img/logo-selo.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UNIVERSOS ============ -->
+    <section class="secao universos papel" aria-labelledby="universos-titulo">
+      <div class="envolve">
+        <div class="cab-secao cab-secao--centro">
+          <span data-ramo=""></span>
+          <p class="sobretitulo">Três pilares, um só lugar</p>
+          <h2 id="universos-titulo" class="titulo-secao">Explore nossos <em>universos</em></h2>
+        </div>
+        <div class="universos__grade">
+          <a class="universo revelar" href="livraria.html">
+            <img src="assets/img/foto-ambiente-livraria.webp" alt="" loading="lazy">
+            <div class="universo__corpo">
+              <span class="universo__num">01</span>
+              <h3>Livraria</h3>
+              <p>Descubra histórias, conhecimentos e novos universos através da leitura.</p>
+              <span class="pilula">Explorar livros <span data-i="seta"></span></span>
+            </div>
+          </a>
+          <a class="universo universo--papelaria revelar" href="papelaria.html">
+            <img src="assets/img/marcapaginas-trio.webp" alt="" loading="lazy">
+            <div class="universo__corpo">
+              <span class="universo__num">02</span>
+              <h3>Papelaria</h3>
+              <p>Materiais que estimulam a criatividade, organização e novas ideias.</p>
+              <span class="pilula">Explorar papelaria <span data-i="seta"></span></span>
+            </div>
+          </a>
+          <a class="universo revelar" href="#cafeteria">
+            <img src="assets/img/cardapio-mockup.webp" alt="" loading="lazy">
+            <div class="universo__corpo">
+              <span class="universo__num">03</span>
+              <h3>Cafeteria</h3>
+              <p>Cafés, bebidas e sabores para acompanhar seus melhores momentos.</p>
+              <span class="pilula">Conhecer cafeteria <span data-i="seta"></span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LIVRARIA ============ -->
+    <section class="secao" id="livraria" aria-labelledby="livraria-titulo">
+      <div class="envolve">
+        <div class="livraria__topo">
+          <div class="livraria__img revelar">
+            <img src="assets/img/banner.webp" alt="Banner da Versos na Mesa com a lista do que o cliente encontra: livros nacionais e internacionais, indicações personalizadas, clube do livro, materiais escolares, cafés especiais e sobremesa da casa" loading="lazy" style="aspect-ratio:4/4.6;object-position:top">
+            <img class="mini" src="assets/img/foto-ambiente-livraria.webp" alt="Ambiente de livraria com estantes e mesas" loading="lazy">
+          </div>
+          <div>
+            <p class="sobretitulo">Livraria</p>
+            <h2 id="livraria-titulo" class="titulo-secao">Histórias que merecem ser <em>descobertas</em></h2>
+            <p class="lead">Explore diferentes histórias, conhecimentos e experiências. Na Versos na Mesa, a leitura é um convite para conhecer novos mundos.</p>
+            <ul class="linhas" data-livraria-linhas></ul>
+          </div>
+        </div>
+
+        <div class="estante-secao">
+          <div data-estante data-nivel="h3" data-titulo="Escolha seu próximo *capítulo*" data-subtitulo="Passeie pelas lombadas, abra um livro e descubra a história por trás da capa."></div>
+          <div class="estante-rodape">
+            <p>Quer ver todos os títulos com filtros e busca? Visite a página da livraria.</p>
+            <a class="btn btn--cheio" href="livraria.html">Ver toda a livraria <span data-i="seta"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PAPELARIA ============ -->
+    <section class="secao papelaria papel" id="papelaria" aria-labelledby="papelaria-titulo">
+      <div class="envolve papelaria__grade">
+        <div>
+          <p class="sobretitulo">Papelaria</p>
+          <h2 id="papelaria-titulo" class="titulo-secao">Dê vida às suas <em>ideias</em></h2>
+          <p class="lead">Uma seleção de materiais escolares, artigos de escritório e papelaria criativa para estimular a organização, a criatividade e o aprendizado.</p>
+          <ul class="categorias" data-papelaria></ul>
+          <a class="btn btn--terra" href="papelaria.html">Ver a papelaria completa <span data-i="seta"></span></a>
+        </div>
+        <div class="brindes revelar">
+          <div class="brindes__marcadores">
+            <a href="assets/img/marcapagina-creme.webp" data-ampliar="brindes" data-legenda="Marca-página creme"><img src="assets/img/marcapagina-creme.webp" alt="Marca-página creme com a ilustração da xícara sobre o livro" loading="lazy"></a>
+            <a href="assets/img/marcapagina-marrom-slogan.webp" data-ampliar="brindes" data-legenda="Marca-página com o slogan"><img src="assets/img/marcapagina-marrom-slogan.webp" alt="Marca-página marrom com o slogan 'um café, um verso e infinitas histórias'" loading="lazy"></a>
+            <a href="assets/img/marcapagina-marrom.webp" data-ampliar="brindes" data-legenda="Marca-página marrom"><img src="assets/img/marcapagina-marrom.webp" alt="Marca-página marrom com a logomarca" loading="lazy"></a>
+            <a href="assets/img/marcapagina-verde.webp" data-ampliar="brindes" data-legenda="Marca-página verde"><img src="assets/img/marcapagina-verde.webp" alt="Marca-página verde com a logomarca" loading="lazy"></a>
+          </div>
+          <div class="brindes__ecobags">
+            <a href="assets/img/ecobag.webp" data-ampliar="brindes" data-legenda="Ecobag Versos na Mesa"><img src="assets/img/ecobag.webp" alt="Ecobag de algodão cru com a ilustração da marca" loading="lazy"></a>
+            <a href="assets/img/ecobag-uso.webp" data-ampliar="brindes" data-legenda="Ecobag com o slogan"><img src="assets/img/ecobag-uso.webp" alt="Pessoa segurando ecobag com o slogan da marca" loading="lazy"></a>
+          </div>
+          <p class="legenda">Brindes e materiais personalizados da marca</p>
+        </div>
+      </div>
+      <div class="envolve">
+        <div class="catalogo catalogo--claro revelar" style="margin-top:clamp(48px,6vw,80px)">
+          <div class="catalogo__cab">
+            <div><p class="sobretitulo">Para estudar, organizar e criar</p><h3>Destaques da papelaria</h3></div>
+            <a class="link-seta" href="papelaria.html">Ver todos os itens <span data-i="seta"></span></a>
+          </div>
+          <ul class="produtos" data-vitrine="papelaria" data-limite="4"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CAFETERIA ============ -->
+    <section class="secao cafeteria" id="cafeteria" aria-labelledby="cafeteria-titulo">
+      <img class="cafeteria__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+      <div class="envolve cafeteria__grade">
+        <div class="cafeteria__fotos revelar">
+          <a class="f1" href="assets/img/folder.webp" data-ampliar="cafe" data-legenda="Frente e verso do folder"><img src="assets/img/folder.webp" alt="Folder da Versos na Mesa" loading="lazy"></a>
+          <a class="f2" href="assets/img/foto-verso-doce.webp" data-ampliar="cafe" data-legenda="Verso doce — sobremesa da casa"><img src="assets/img/foto-verso-doce.webp" alt="Verso doce, sobremesa da casa, com café" loading="lazy"></a>
+          <a class="f3" href="assets/img/cardapio-mockup.webp" data-ampliar="cafe" data-legenda="Frente e verso do cardápio"><img src="assets/img/cardapio-mockup.webp" alt="Cardápio da Versos na Mesa" loading="lazy"></a>
+        </div>
+        <div>
+          <p class="sobretitulo">Cafeteria</p>
+          <h2 id="cafeteria-titulo" class="titulo-secao">Seu próximo capítulo combina com <em>um café</em></h2>
+          <p class="lead">Mais do que uma cafeteria, um espaço para desacelerar, aproveitar o momento e transformar pequenas pausas em experiências especiais.</p>
+          <div class="grupos-menu">
+            <div class="grupo-menu"><span data-i="xicara"></span><strong>Quentes</strong>cafés, cappuccino, latte, chocolate</div>
+            <div class="grupo-menu"><span data-i="agua"></span><strong>Geladas</strong>cafés e bebidas cremosas</div>
+            <div class="grupo-menu"><span data-i="estrela"></span><strong>Salgados</strong>croissant, coxinha e mais</div>
+            <div class="grupo-menu"><span data-i="bolo"></span><strong>Doces</strong>cookies, bolos e o verso doce</div>
+          </div>
+          <div class="cardapio-resumo" data-cardapio-resumo></div>
+          <a class="btn btn--claro" href="cardapio.html">Conheça nosso cardápio <span data-i="seta"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MAIS DO QUE UMA LOJA ============ -->
+    <section class="secao" id="experiencia" aria-labelledby="exp-titulo">
+      <div class="envolve experiencia__grade">
+        <div class="experiencia__texto">
+          <p class="sobretitulo">Mais do que uma loja</p>
+          <h2 id="exp-titulo" class="titulo-secao">Um espaço para <em>viver histórias</em></h2>
+          <p class="lead">A Versos na Mesa foi criada para unir cultura, conforto e criatividade em um único ambiente. Mais do que oferecer livros, materiais de papelaria e produtos de cafeteria, buscamos proporcionar experiências que valorizem o bem-estar, o atendimento humanizado e o incentivo à leitura.</p>
+          <blockquote>Fazer com que o cliente não apenas compre produtos, mas viva uma experiência agradável dentro da empresa.</blockquote>
+        </div>
+        <ul class="diferenciais">
+          <li class="diferencial revelar"><span data-i="poltrona"></span><h3>Ambiente aconchegante</h3></li>
+          <li class="diferencial revelar"><span data-i="livro-aberto"></span><h3>Espaço para leitura e estudos</h3></li>
+          <li class="diferencial revelar"><span data-i="wifi"></span><h3>Wi-Fi gratuito</h3></li>
+          <li class="diferencial revelar"><span data-i="musica"></span><h3>Música ambiente tranquila</h3></li>
+          <li class="diferencial revelar"><span data-i="mao"></span><h3>Atendimento personalizado</h3></li>
+          <li class="diferencial revelar"><span data-i="decoracao"></span><h3>Decoração temática literária</h3></li>
+          <li class="diferencial revelar"><span data-i="embalagem"></span><h3>Embalagens bonitas e organizadas</h3></li>
+          <li class="diferencial revelar"><span data-i="pena"></span><h3>Eventos culturais</h3></li>
+          <li class="diferencial revelar"><span data-i="grupo"></span><h3>Clubes de leitura</h3></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ EVENTOS ============ -->
+    <section class="secao eventos papel" id="eventos" aria-labelledby="eventos-titulo">
+      <div class="envolve">
+        <div class="cab-secao cab-secao--centro">
+          <p class="sobretitulo">Eventos</p>
+          <h2 id="eventos-titulo" class="titulo-secao">Viva a experiência <em>Versos na Mesa</em></h2>
+          <p class="lead">Encontros, histórias e experiências que aproximam pessoas.</p>
+        </div>
+        <div class="eventos__grade" data-eventos-home></div>
+        <div class="eventos__rodape">
+          <a class="btn btn--terra" href="eventos.html">Ver todos os eventos <span data-i="seta"></span></a>
+          <p>Programação prevista no plano de negócios · datas e horários serão divulgados nas redes sociais.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROMOÇÕES ============ -->
+    <section class="secao" id="promocoes" aria-labelledby="promo-titulo">
+      <div class="envolve">
+        <div class="cab-secao">
+          <div>
+            <p class="sobretitulo">Promoções</p>
+            <h2 id="promo-titulo" class="titulo-secao">Ofertas especiais para <em>momentos especiais</em></h2>
+          </div>
+        </div>
+        <div class="faixa-promo revelar">
+          <img class="faixa-promo__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+          <div class="faixa-promo__num">10<small>%</small></div>
+          <div>
+            <span class="manuscrito">Desconto de inauguração</span>
+            <h3>Comemore a abertura com a gente</h3>
+            <p>10% de desconto em produtos selecionados durante o período de inauguração.</p>
+          </div>
+          <a class="btn btn--claro" href="#contato">Venha nos visitar <span data-i="seta"></span></a>
+        </div>
+        <ul class="promos" data-promocoes></ul>
+        <p class="nota-rodape"><span data-i="info"></span>Ações promocionais previstas no plano de marketing. Condições, períodos e regras serão divulgados em cada campanha.</p>
+      </div>
+    </section>
+
+    <!-- ============ ESPAÇO ============ -->
+    <section class="secao espaco papel" id="espaco" aria-labelledby="espaco-titulo">
+      <div class="envolve">
+        <div class="cab-secao">
+          <div>
+            <p class="sobretitulo">Estrutura física</p>
+            <h2 id="espaco-titulo" class="titulo-secao">Conheça nosso <em>espaço</em></h2>
+            <p class="lead">O espaço foi planejado para proporcionar conforto, organização e praticidade. O primeiro pavimento concentra o atendimento, a livraria, a papelaria e a cafeteria. O segundo andar oferece um ambiente mais reservado e silencioso, voltado para leitura, estudos e encontros culturais.</p>
+          </div>
+        </div>
+        <div class="andares">
+          <article class="andar revelar">
+            <div class="andar__cab"><span>1º</span><h3>Primeiro andar</h3></div>
+            <div class="andar__imgs">
+              <figure><a class="planta" href="assets/img/planta-1-andar.webp" data-ampliar="espaco" data-legenda="Planta baixa — 1º andar"><img src="assets/img/planta-1-andar.webp" alt="Planta baixa do primeiro andar" loading="lazy"><span class="zoom" data-i="ampliar"></span></a><figcaption>Planta baixa</figcaption></figure>
+              <figure><a href="assets/img/3d-1-andar.webp" data-ampliar="espaco" data-legenda="1º andar em 3D"><img src="assets/img/3d-1-andar.webp" alt="Primeiro andar em 3D, vista superior" loading="lazy"><span class="zoom" data-i="ampliar"></span></a><figcaption>1º andar em 3D</figcaption></figure>
+            </div>
+            <ul class="ambientes"><li>Entrada principal</li><li>Livraria</li><li>Papelaria</li><li>Cafeteria</li><li>Balcão de atendimento e caixa</li><li>Mesas e poltronas</li><li>Área de leitura</li><li>Banheiros</li><li>Circulação entre os ambientes</li></ul>
+          </article>
+          <article class="andar revelar">
+            <div class="andar__cab"><span>2º</span><h3>Segundo andar</h3></div>
+            <div class="andar__imgs">
+              <figure><a class="planta" href="assets/img/planta-2-andar.webp" data-ampliar="espaco" data-legenda="Planta baixa — 2º andar"><img src="assets/img/planta-2-andar.webp" alt="Planta baixa do segundo andar" loading="lazy"><span class="zoom" data-i="ampliar"></span></a><figcaption>Planta baixa</figcaption></figure>
+              <figure><a href="assets/img/3d-2-andar.webp" data-ampliar="espaco" data-legenda="2º andar em 3D"><img src="assets/img/3d-2-andar.webp" alt="Segundo andar em 3D, vista superior" loading="lazy"><span class="zoom" data-i="ampliar"></span></a><figcaption>2º andar em 3D</figcaption></figure>
+            </div>
+            <ul class="ambientes"><li>Biblioteca principal</li><li>Área de café e leitura</li><li>Área de conversa</li><li>Espaços de permanência</li><li>Varanda deck</li></ul>
+          </article>
+        </div>
+        <div class="galeria-extra galeria-extra--2">
+          <a href="assets/img/3d-cafeteria.webp" data-ampliar="espaco" data-legenda="Parte da cafeteria (3D)"><img src="assets/img/3d-cafeteria.webp" alt="Cafeteria em 3D com balcão e estantes" loading="lazy"><span>Parte da cafeteria</span></a>
+          <a href="assets/img/3d-visao-geral.webp" data-ampliar="espaco" data-legenda="Visão geral do 1º andar (3D)"><img src="assets/img/3d-visao-geral.webp" alt="Visão geral do primeiro andar em 3D" loading="lazy"><span>Visão geral do 1º andar</span></a>
+        </div>
+        <div class="imovel revelar">
+          <div class="imovel__texto">
+            <p class="sobretitulo">O imóvel</p>
+            <h3>Rua da Quitanda, 86 — Centro</h3>
+            <p>Imóvel escolhido para a implantação da Versos na Mesa, em uma região de grande movimentação, com fácil acesso por metrô, VLT e ônibus e próxima a comércios e escritórios.</p>
+            <a class="link-seta" href="#contato">Como chegar <span data-i="seta"></span></a>
+          </div>
+          <a class="imovel__foto" href="assets/img/local-fachada.webp" data-ampliar="espaco" data-legenda="Fachada do edifício na Rua da Quitanda"><img src="assets/img/local-fachada.webp" alt="Fachada histórica do edifício na Rua da Quitanda, com a inscrição Galeria" loading="lazy"><span>Fachada</span></a>
+          <a class="imovel__foto" href="assets/img/local-interior.webp" data-ampliar="espaco" data-legenda="Interior do imóvel"><img src="assets/img/local-interior.webp" alt="Interior amplo do imóvel, com pilares e escada metálica" loading="lazy"><span>Interior</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCALIZAÇÃO E HORÁRIO ============ -->
+    <section class="secao contato" id="contato" aria-labelledby="contato-titulo">
+      <div class="envolve">
+        <div class="cab-secao">
+          <div>
+            <p class="sobretitulo">Localização</p>
+            <h2 id="contato-titulo" class="titulo-secao">Venha nos <em>visitar</em></h2>
+          </div>
+        </div>
+        <div class="contato__grade">
+          <div class="contato__info">
+            <div class="cartao-info revelar">
+              <h3><span data-i="local"></span>Endereço</h3>
+              <address>Rua da Quitanda, nº 86 — Centro<br>Rio de Janeiro — RJ</address>
+              <p class="texto-pequeno">A Versos na Mesa estará localizada em uma região de grande movimentação e fácil acesso por metrô, VLT e ônibus. A proximidade com comércios e escritórios favorece o fluxo de clientes.</p>
+              <a class="btn btn--cheio" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+da+Quitanda%2C+86+-+Centro%2C+Rio+de+Janeiro+-+RJ" target="_blank" rel="noopener">Abrir rota no Google Maps <span data-i="seta"></span></a>
+            </div>
+            <div class="cartao-info revelar">
+              <h3><span data-i="relogio"></span>Horário de funcionamento</h3>
+              <div class="horarios">
+                <div><span>Segunda a sábado</span><strong>06h às 22h</strong></div>
+                <div><span>Feriados</span><strong>08h às 17h</strong></div>
+              </div>
+              <p class="texto-pequeno">Horário planejado para atender estudantes, trabalhadores e pessoas que desejam aproveitar o espaço durante diferentes períodos do dia.</p>
+              <div class="contatos-lista">
+                <a href="tel:+5521983415720"><span data-i="telefone"></span>(21) 98341-5720</a>
+                <a href="mailto:versosnamesa@gmail.com"><span data-i="email"></span>versosnamesa@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="mapa revelar">
+            <iframe title="Mapa: Rua da Quitanda, 86 — Centro, Rio de Janeiro" src="https://maps.google.com/maps?q=Rua%20da%20Quitanda%2C%2086%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REDES ============ -->
+    <section class="secao redes-sec" id="redes" aria-labelledby="redes-titulo">
+      <div class="envolve">
+        <div class="cab-secao cab-secao--centro">
+          <span data-ramo=""></span>
+          <p class="sobretitulo">Redes sociais</p>
+          <h2 id="redes-titulo" class="titulo-secao">Continue essa história <em>com a gente</em></h2>
+        </div>
+        <ul class="redes-grade" data-redes></ul>
+        <div class="instagram-preview">
+          <a href="assets/img/instagram-perfil.webp" data-ampliar="insta" data-legenda="Perfil da empresa no Instagram"><img src="assets/img/instagram-perfil.webp" alt="Prévia do perfil @versosnamesa no Instagram" loading="lazy"></a>
+          <a href="assets/img/post-clube-leitura.webp" data-ampliar="insta" data-legenda="Post: Clube de Leitura"><img src="assets/img/post-clube-leitura.webp" alt="Post do Instagram anunciando o Clube de Leitura" loading="lazy"></a>
+          <a href="assets/img/marcapaginas-trio.webp" data-ampliar="insta" data-legenda="Marca-páginas da marca"><img src="assets/img/marcapaginas-trio.webp" alt="Marca-páginas da Versos na Mesa" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="secao" style="padding-top:0" aria-labelledby="news-titulo">
+      <div class="envolve">
+        <div class="newsletter revelar">
+          <img class="newsletter__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+          <div>
+            <h2 id="news-titulo">Receba novidades, promoções e muito mais!</h2>
+            <p>Fique por dentro dos nossos lançamentos, eventos, novidades e experiências.</p>
+          </div>
+          <form class="form-news" data-newsletter novalidate>
+            <div class="form-news__linha">
+              <label for="news-email" class="sr">Seu e-mail</label>
+              <input id="news-email" type="email" name="email" placeholder="Seu melhor e-mail" autocomplete="email" aria-describedby="news-msg">
+              <button class="btn btn--terra" type="submit">Inscrever-se</button>
+            </div>
+            <p class="form-msg" id="news-msg" aria-live="polite"></p>
+            <small>Ao se inscrever, você concorda com nossa <a href="informacoes.html#privacidade" style="color:#fff">política de privacidade</a>.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="rodape"></div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/estante.js"></script>
+</body>
+</html>

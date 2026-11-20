@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Papelaria — Versos na Mesa</title>
+  <meta name="description" content="Papelaria Versos na Mesa: cadernos, canetas, materiais escolares, artigos de escritório e papelaria criativa.">
+  <meta name="theme-color" content="#3F2619">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-pagina="papelaria">
+  <div id="cabecalho"></div>
+  <main id="conteudo">
+    <header class="cab-pagina cab-pagina--rosa papel">
+      <nav class="migalhas" aria-label="Você está em"><a href="index.html">Início</a><span>/</span><span aria-current="page">Papelaria</span></nav>
+      <p class="sobretitulo">Papelaria</p>
+      <h1>Dê vida às suas <em>ideias</em></h1>
+      <p class="lead">Uma seleção de materiais escolares, artigos de escritório e papelaria criativa para estimular a organização, a criatividade e o aprendizado.</p>
+    </header>
+    <section class="secao" id="catalogo" aria-label="Catálogo">
+      <div class="envolve">
+        <div class="ferramentas">
+          <div class="filtros-chips" data-filtros role="group" aria-label="Filtrar por categoria"></div>
+          <div class="ferramentas__busca">
+            <span data-i="busca"></span>
+            <label for="filtro-texto" class="sr">Buscar no catálogo</label>
+            <input id="filtro-texto" type="search" data-filtro-texto placeholder="Buscar cadernos, canetas, mochilas…" autocomplete="off">
+          </div>
+        </div>
+        <p class="contagem" data-contagem aria-live="polite"></p>
+        <ul class="produtos produtos--pagina" data-catalogo-pagina="papelaria"></ul>
+        <p class="nota-rodape"><span data-i="info"></span>Os preços ainda não foram informados pela empresa: consulte valores e disponibilidade na loja ou pelo WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="secao papelaria papel" id="brindes" aria-labelledby="brindes-titulo">
+      <div class="envolve papelaria__grade">
+        <div>
+          <p class="sobretitulo">Feitos com a nossa marca</p>
+          <h2 id="brindes-titulo" class="titulo-secao">Brindes e materiais <em>personalizados</em></h2>
+          <p class="lead">Marca-páginas e ecobags com a ilustração da xícara sobre o livro e o slogan “Um café, um verso, infinitas histórias.”</p>
+          <a class="btn btn--terra" href="index.html#promocoes">Ver promoções <span data-i="seta"></span></a>
+        </div>
+        <div class="brindes revelar">
+          <div class="brindes__marcadores">
+            <a href="assets/img/marcapagina-creme.webp" data-ampliar="brindes" data-legenda="Marca-página creme"><img src="assets/img/marcapagina-creme.webp" alt="Marca-página creme com a ilustração da xícara sobre o livro" loading="lazy"></a>
+            <a href="assets/img/marcapagina-marrom-slogan.webp" data-ampliar="brindes" data-legenda="Marca-página com o slogan"><img src="assets/img/marcapagina-marrom-slogan.webp" alt="Marca-página marrom com o slogan" loading="lazy"></a>
+            <a href="assets/img/marcapagina-marrom.webp" data-ampliar="brindes" data-legenda="Marca-página marrom"><img src="assets/img/marcapagina-marrom.webp" alt="Marca-página marrom com a logomarca" loading="lazy"></a>
+            <a href="assets/img/marcapagina-verde.webp" data-ampliar="brindes" data-legenda="Marca-página verde"><img src="assets/img/marcapagina-verde.webp" alt="Marca-página verde com a logomarca" loading="lazy"></a>
+          </div>
+          <div class="brindes__ecobags">
+            <a href="assets/img/ecobag.webp" data-ampliar="brindes" data-legenda="Ecobag Versos na Mesa"><img src="assets/img/ecobag.webp" alt="Ecobag de algodão cru com a ilustração da marca" loading="lazy"></a>
+            <a href="assets/img/ecobag-uso.webp" data-ampliar="brindes" data-legenda="Ecobag com o slogan"><img src="assets/img/ecobag-uso.webp" alt="Pessoa segurando ecobag com o slogan da marca" loading="lazy"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="volta-titulo">
+      <div class="envolve">
+        <div class="faixa-promo">
+          <img class="faixa-promo__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+          <div class="faixa-promo__num" style="font-size:clamp(3rem,7vw,5rem)"><span data-i="mochila"></span></div>
+          <div>
+            <span class="manuscrito">Volta às aulas</span>
+            <h3 id="volta-titulo">Volta às aulas com a gente</h3>
+            <p>Descontos em materiais escolares e kits com cadernos, canetas, mochilas e outros produtos de papelaria.</p>
+          </div>
+          <a class="btn btn--claro" href="index.html#contato">Venha nos visitar <span data-i="seta"></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="rodape"></div>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

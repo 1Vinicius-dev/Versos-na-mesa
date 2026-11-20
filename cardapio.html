@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cardápio — Versos na Mesa</title>
+  <meta name="description" content="Cardápio da cafeteria Versos na Mesa: cafés e bebidas quentes e geladas, salgados, doces, bebidas e adicionais.">
+  <meta name="theme-color" content="#3F2619">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-pagina="cafeteria">
+  <div id="cabecalho"></div>
+  <main id="conteudo">
+    <header class="cab-pagina papel">
+      <img class="cab-pagina__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+      <nav class="migalhas" aria-label="Você está em"><a href="index.html">Início</a><span>/</span><a href="index.html#cafeteria">Cafeteria</a><span>/</span><span aria-current="page">Cardápio</span></nav>
+      <p class="sobretitulo">Cafeteria</p>
+      <h1>Nosso <em>cardápio</em></h1>
+      <p class="lead">Cafés e bebidas quentes para quem procura aconchego, bebidas geladas para momentos de descontração, além de salgados, doces e outras opções para acompanhar uma boa leitura ou uma conversa.</p>
+    </header>
+
+    <section class="secao">
+      <div class="envolve cardapio-layout">
+        <aside class="cardapio-indice" aria-label="Categorias do cardápio">
+          <h2>Categorias</h2>
+          <ul data-cardapio-indice></ul>
+        </aside>
+        <div>
+          <div class="cardapio-grade" data-cardapio-completo></div>
+          <p class="nota-rodape"><span data-i="info"></span>Valores conforme o cardápio apresentado no plano de negócios. Preços e disponibilidade podem ser atualizados pela loja.</p>
+
+          <div class="cardapio-original">
+            <figure><a href="assets/img/cardapio-mockup.webp" data-ampliar="cardapio" data-legenda="Frente e verso do cardápio"><img src="assets/img/cardapio-mockup.webp" alt="Frente e verso do cardápio impresso" loading="lazy"></a><figcaption>Cardápio impresso</figcaption></figure>
+            <figure><a href="assets/img/cardapio-tabela.webp" data-ampliar="cardapio" data-legenda="Tabela de preços do cardápio"><img src="assets/img/cardapio-tabela.webp" alt="Tabela de preços original do cardápio" loading="lazy"></a><figcaption>Tabela de preços original</figcaption></figure>
+            <figure><a href="assets/img/folder.webp" data-ampliar="cardapio" data-legenda="Frente e verso do folder"><img src="assets/img/folder.webp" alt="Folder da Versos na Mesa" loading="lazy"></a><figcaption>Folder</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" style="padding-top:0">
+      <div class="envolve">
+        <div class="faixa-promo">
+          <img class="faixa-promo__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+          <div class="faixa-promo__num" style="font-size:clamp(3rem,7vw,5rem)"><span data-i="xicara"></span></div>
+          <div>
+            <span class="manuscrito">Combo Café + Livro</span>
+            <h3>Um livro pede um café</h3>
+            <p>Desconto especial para clientes que comprarem um livro junto com uma bebida ou produto da cafeteria.</p>
+          </div>
+          <a class="btn btn--claro" href="livraria.html">Explorar a livraria <span data-i="seta"></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="rodape"></div>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

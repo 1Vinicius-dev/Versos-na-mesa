@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventos — Versos na Mesa</title>
+  <meta name="description" content="Clube do Livro, Noite de Autores, Café com Poesia, oficinas, encontros de leitura e mais na Versos na Mesa.">
+  <meta name="theme-color" content="#3F2619">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-pagina="eventos">
+  <div id="cabecalho"></div>
+  <main id="conteudo">
+    <header class="cab-pagina papel">
+      <img class="cab-pagina__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+      <nav class="migalhas" aria-label="Você está em"><a href="index.html">Início</a><span>/</span><span aria-current="page">Eventos</span></nav>
+      <p class="sobretitulo">Eventos</p>
+      <h1>Viva a experiência <em>Versos na Mesa</em></h1>
+      <p class="lead">Encontros, histórias e experiências que aproximam pessoas. Ao longo do ano, a Versos na Mesa quer aproximar os clientes da marca, incentivar a leitura, estimular a criatividade e transformar o espaço em um ambiente de convivência e troca de experiências.</p>
+    </header>
+
+    <section class="secao eventos">
+      <div class="envolve">
+        <div class="alerta-doc" style="background:var(--off);border-color:var(--linha)">
+          <span data-i="calendario"></span>
+          <p><strong>Programação em construção.</strong> Os eventos abaixo fazem parte do plano de marketing da empresa. Datas, horários e inscrições serão divulgados nas redes sociais e por aqui.</p>
+        </div>
+        <div class="eventos__grade" data-eventos-todos></div>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="clube-titulo">
+      <div class="envolve livraria__topo" style="margin-bottom:0">
+        <div class="livraria__img revelar">
+          <img src="assets/img/post-clube-leitura.webp" alt="Post de divulgação do Clube de Leitura da Versos na Mesa" loading="lazy" style="aspect-ratio:auto;max-width:440px;margin:0 auto">
+        </div>
+        <div>
+          <p class="sobretitulo">Em destaque</p>
+          <h2 id="clube-titulo" class="titulo-secao">Clube do <em>Livro</em></h2>
+          <p class="lead">Encontros mensais para conversar sobre uma obra escolhida, compartilhar opiniões, discutir personagens e trocar indicações de leitura — com um café por perto, claro.</p>
+          <p>A divulgação dos encontros acontece principalmente pelo Instagram. Acompanhe para saber da próxima leitura.</p>
+          <a class="btn btn--cheio" href="https://www.instagram.com/versosnamesa/" target="_blank" rel="noopener"><span data-i="instagram"></span> Seguir @versosnamesa</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" style="padding-top:0">
+      <div class="envolve">
+        <div class="newsletter">
+          <img class="newsletter__ilus" src="assets/img/ilustracao-xicara-clara.png" alt="" aria-hidden="true">
+          <div>
+            <h2>Quer saber dos próximos encontros?</h2>
+            <p>Receba novidades sobre eventos, lançamentos e promoções.</p>
+          </div>
+          <form class="form-news" data-newsletter novalidate>
+            <div class="form-news__linha">
+              <label for="news-email" class="sr">Seu e-mail</label>
+              <input id="news-email" type="email" name="email" placeholder="Seu melhor e-mail" autocomplete="email" aria-describedby="news-msg">
+              <button class="btn btn--terra" type="submit">Inscrever-se</button>
+            </div>
+            <p class="form-msg" id="news-msg" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="rodape"></div>
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
